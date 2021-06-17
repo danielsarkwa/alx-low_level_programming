@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 /**
- * main - a simple program that prints size of various types of computer it is complied on
+ * main -Entry point
  * Return - outputs digits
  */
 {
