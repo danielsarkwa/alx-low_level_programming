@@ -23,8 +23,8 @@ printf("Last digit of %d is %d and is greater than 5\n", n, new);
 else if (new == 0)
 {
 printf("Last digit of %d is %d is 0\n", n, new);
-} 
-else 
+}
+else
 {
 printf("Last digit of n is num and is less than 6 and not 0");
 }
