@@ -4,11 +4,8 @@
 
 /**
  * main - Entry point
- * Return: 
- *  Last digit of n is num and is greater than 5
- *  Last digit of n is num is 0
- *  Last digit of n is num and is less than 6 and not 0
- * 
+ * Description: Print statements based on the last digit of the random number n
+ * Return: 0
  */
 int main(void)
 {
@@ -19,13 +16,16 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 new = n;
 
-if(new > 5)
+if (new > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, new);
-} else if(new == 0)
+}
+else if (new == 0)
 {
 printf("Last digit of %d is %d is 0\n", n, new);
-} else {
+} 
+else 
+{
 printf("Last digit of n is num and is less than 6 and not 0");
 }
 
