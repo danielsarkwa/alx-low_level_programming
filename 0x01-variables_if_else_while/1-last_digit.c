@@ -1,1 +1,33 @@
-code here...
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/**
+ * main - Entry point
+ * Return: 
+ *  Last digit of n is num and is greater than 5
+ *  Last digit of n is num is 0
+ *  Last digit of n is num and is less than 6 and not 0
+ * 
+ */
+int main(void)
+{
+int n;
+int new;
+
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+new = n;
+
+if(new > 5)
+{
+printf("Last digit of %d is %d and is greater than 5\n", n, new);
+} else if(new == 0)
+{
+printf("Last digit of %d is %d is 0\n", n, new);
+} else {
+printf("Last digit of n is num and is less than 6 and not 0");
+}
+
+return (0);
+}
