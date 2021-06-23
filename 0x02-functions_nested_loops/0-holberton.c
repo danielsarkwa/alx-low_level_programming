@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-puts("Hello, World!");
+puts("Holberton");
 return (0);
 }
