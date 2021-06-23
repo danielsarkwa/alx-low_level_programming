@@ -24,7 +24,8 @@ else if (j != 0)
 _putchar(' ');
 _putchar(' ');
 _putchar(r + 48);
-} else
+}
+else
 {
 _putchar(r + 48);
 }
