@@ -5,12 +5,16 @@
  * Description: prints the alphabet, in lowercase, followed by a new line.
  * Return: Always void.
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-int i;
-for (i = 97; i <= 122; i++)
+int r;
+for (r = 10; r <= 10; i++)
 {
-_putchar(i);
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+putchar(ch);
 }
-_putchar('\n');
+}
+putchar('\n');
 }
