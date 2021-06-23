@@ -18,6 +18,6 @@ sum += i;
 }
 i++;
 }
-_printf(sum);
+printf(sum);
 return (0);
 }
