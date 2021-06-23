@@ -7,26 +7,27 @@
  */
 void print_to_98(int n)
 {
-int i;
-if (n >= 0 && n < 98)
+int num1;
+int num2;
+if (n > 15 || n < 0)
+return;
+for (num1 = 0; num1 < n + 1; num1++)
 {
-for (i = 0; n + i <= 98; i++)
+for (num2 = 0; num2 < n + 1; num2++)
 {
-if (n + i < 10)
+int product = num1 * num2;
+if (num2 > 0)
 {
-_putchar(n + i + 48);
+_putchar(product > 99 ? (product / 100) + '0' : ' ');
+_putchar(product > 9 ? ((product / 10) % 10) + '0' : ' ');
 }
-else
+_putchar((product % 10) + '0');
+if (num2 < n)
 {
-_putchar(n + i / 10 + 48);
-_putchar(n + i % 10 + 48);
+_putchar(',');
+_putchar(' ');
 }
 }
-}
-else if (n > 98)
-{
-for (i = 0; n - i >= 98; i++)
-{
-}
+_putchar('\n');
 }
 }

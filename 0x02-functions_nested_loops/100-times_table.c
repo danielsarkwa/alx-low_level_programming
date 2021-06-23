@@ -7,14 +7,5 @@
  */
 void print_times_table(int n)
 {
-int limit = 98;
-int num = (n);
-int step = n > limit ? -1 : 1;
-int stop;
-while (!stop)
-{
-printf("%d%s", num, (num == limit ? "\n" : ", "));
-stop = num == limit;
-num += step;
-}
+
 }
