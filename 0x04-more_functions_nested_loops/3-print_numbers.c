@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * print_numbers - multiplies two integers
- * 
- * Return: the product of the two integers
+ * print_numbers -  prints the numbers, from 0 to 9
+ *
+ * Return: void
  */
 void print_numbers(void)
 {
