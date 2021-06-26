@@ -8,25 +8,31 @@
  */
 int main(void)
 {
-int i;
-for (i = 1; i <= 100; i++)
+int c;
+char f[] = "Fizz";
+char b[] = "Buzz";
+char fb[] = "FizzBuzz";
+
+for (c = 1; c <= 100; c++)
 {
-if (i % 3 == 0 && i % 5 == 0)
+if (c == 100)
 {
-printf(" FizzBuzz");
+printf("%s", b);
 }
-else if (i % 3 == 0)
+else if (c % 3 == 0 && c % 5 == 0)
 {
-printf(" Fizz");
+printf("%s ", fb);
 }
-else if (i % 5 == 0 && i % 3 != 0)
+else if (c % 3 == 0)
 {
-printf(" Buzz");
+printf("%s ", f);
+}
+else if (c % 5 == 0)
+{
+printf("%s ", b);
 }
 else
-{
-printf(" %d", i);
-}
+printf("%d ", c);
 }
 printf("\n");
 return (0);
