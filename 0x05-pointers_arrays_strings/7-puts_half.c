@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * puts2 - prints second half of a string
+ * puts_half - prints second half of a string
  * @str: variable of string array
  * Returns: void
  */
