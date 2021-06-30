@@ -2,7 +2,7 @@
 #include "holberton.h"
 
 /**
- * *_strcpy -  copies the string pointed to by src with (\0)
+ * *_strcpy - copies the string pointed to by src with (\0)
  * @dest: char type string
  * @src: char type string
  * Description: Copy the string pointed to by pointer `src` to
