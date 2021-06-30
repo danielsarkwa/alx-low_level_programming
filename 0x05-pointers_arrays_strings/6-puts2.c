@@ -1,9 +1,20 @@
 #include <stdio.h>
-#include <string.h>
 #include "holberton.h"
 
 /**
- * rev_string - reverses a string
- * @s: variable of string
+ * puts2 - prints every other character of a string
+ * @str: variable of string
  * Returns: void
  */
+void puts2(char *str)
+{
+int c;
+for (c = 0; str[c] != 0; c++)
+{
+if (c % 2 != 1)
+{
+_putchar(str[c]);
+}
+}
+_putchar('\n');
+}
