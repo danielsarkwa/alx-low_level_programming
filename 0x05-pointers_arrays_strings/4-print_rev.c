@@ -14,10 +14,9 @@ while (s[ch] != 0)
 ch++;
 }
 
-int i;
-for (i = i - 1; i >= 0; i--)
+for (ch = ch - 1; ch >= 0; ch--)
 {
-_putchar(s[i]);
+_putchar(s[ch]);
 }
 _putchar('\n');
 }
