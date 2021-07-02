@@ -1,5 +1,6 @@
-#include "holberton.h"
 #include <stdio.h>
+#include "holberton.h"
+
 /**
  * _strcmp - Code to compare strings
  * @s1: String value for the argument of the function
@@ -7,7 +8,6 @@
  *
  * Return: Destination
  */
-
 int _strcmp(char *s1, char *s2)
 {
 int i;

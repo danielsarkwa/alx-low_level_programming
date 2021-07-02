@@ -1,5 +1,6 @@
-#include "holberton.h"
 #include <stdio.h>
+#include "holberton.h"
+
 /**
  * reverse_array - Code to reverse an array
  * @a: int value for the argument of the function
@@ -7,7 +8,6 @@
  *
  * Return: Void
  */
-
 void reverse_array(int *a, int n)
 {
 int i = 0;

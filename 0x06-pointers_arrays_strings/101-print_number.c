@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "holberton.h"
+
 /**
  * print_number - prints a number
  * @n: Input number
  */
-
 void print_number(int n)
 {
 int res, temp, expo;

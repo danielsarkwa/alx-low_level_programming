@@ -1,5 +1,5 @@
-#include "holberton.h"
 #include <stdio.h>
+#include "holberton.h"
 
 /**
  * print_line - prints a s bytes of a buffer

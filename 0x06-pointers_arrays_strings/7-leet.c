@@ -1,5 +1,6 @@
-#include "holberton.h"
 #include <stdio.h>
+#include "holberton.h"
+
 /**
  * leet - encodes a string into leetspeek.
  * @s: pointer to input string.

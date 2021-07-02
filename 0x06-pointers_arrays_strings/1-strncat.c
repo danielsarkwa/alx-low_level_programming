@@ -1,5 +1,6 @@
-#include "holberton.h"
 #include <stdio.h>
+#include "holberton.h"
+
 /**
  * _strncat - Code to copy string of n byte
  * @dest: String value for the argument of the function
@@ -7,7 +8,6 @@
  * @n: Int value for the byte of the string
  * Return: Destination
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 int a = 0;
