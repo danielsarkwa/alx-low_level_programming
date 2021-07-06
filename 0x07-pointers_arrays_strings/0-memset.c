@@ -3,7 +3,7 @@
 /**
  * _memset - add n byte of b to array
  * @s: an array
- * @b: replace character 
+ * @b: replace character
  * @n: number of bytes to replace
  * Return: pointer to s
  */
