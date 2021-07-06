@@ -1,11 +1,12 @@
 #include "holberton.h"
 
 /**
- * *_strpbrk - searches a string for any of a set of bytes
- * @s: string to search
- * @accept: stringcontaining the bytes to look for
- * Return: pointer to the byte in s that matches one of the bytes in accept
- *  or NULL if no such byte is found
+ * *_strstr - locates a substring
+ * @haystack: string to search in
+ * @needle: substring to look for
+ *
+ * Return: pointer to the beginning of the located substring
+ *  or NULL if the substring is not found
  */
 char *_strstr(char *haystack, char *needle)
 {
