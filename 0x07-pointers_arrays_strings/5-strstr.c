@@ -26,8 +26,7 @@ return (haystack);
 
 i++;
 
-}
-while (haystack[i] == needle[i]);
+} while (haystack[i] == needle[i]);
 }
 haystack++;
 }
