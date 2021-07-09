@@ -1,0 +1,1 @@
+Learnign static libraries in c
