@@ -9,10 +9,10 @@
  */
 int main(void)
 {
-  char *concat;
+  char *cct;
 
-  concat = string_nconcat("Holberton ", "School !!!", 6);
-  printf("%s\n", concat);
-  free(concat);
+  cct = string_nconcat("Holberton ", "School !!!", 6);
+  printf("%s\n", cct);
+  free(cct);
   return (0);
 }
