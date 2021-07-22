@@ -6,22 +6,20 @@
  * @array: array given
  * @size: size of the array
  * @action: callback function
- *
+ * Return: 0
  */
-
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int i = 0;
-
-	if (array != NULL)
-	{
-		if (action != NULL)
-	{
-			while (i < size)
-	{
-			action(array[i]);
-			i++;
-	}
-	}
-	}
+unsigned int i = 0;
+if (array != NULL)
+{
+if (action != NULL)
+{
+while (i < size)
+{
+action(array[i]);
+i++;
+}
+}
+}
 }
