@@ -1,1 +1,1 @@
-Learningdirectory contains codes on Recursions in the C programming
+Learning Recursions in the C programming

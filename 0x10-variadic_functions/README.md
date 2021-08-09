@@ -1,1 +1,1 @@
-**This directory contains codes on variadic functions and constant variables in the C Preogramming Language**
+Learning variadic functions and constant variables in the C Preogramming
